@@ -1,5 +1,12 @@
 # Let's Encrypt Docker Image
 
+# mlabbe fork begin doc
+
+What's changed: source repo is abandoned. This version uses the
+certbot:latest container rather than a really old version.
+
+# mlabbe fork end doc
+
 Docker Image wrapping Certbot client to automate the tasks of obtaining Let's Encrypt certificates.
 
 > Until May 2016, Certbot was named simply letsencrypt or letsencrypt-auto, depending on install method. Instructions on the Internet, and some pieces of the software, may still refer to this older name.

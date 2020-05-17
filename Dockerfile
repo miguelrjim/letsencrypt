@@ -1,7 +1,7 @@
 FROM blacklabelops/centos:7.4
-MAINTAINER Steffen Bleul <sbl@blacklabelops.com>
+MAINTAINER Michael Labbe <contact@frogtoss.com>
 
-ARG CERTBOT_VERSION=0.23.0
+ARG CERTBOT_VERSION=latest
 ARG CONTAINER_UID=1000
 ARG CONTAINER_GID=1000
 ARG JOBBER_VERSION=v1.2
